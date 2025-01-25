@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onde Estamos</title>
+  <!-- Link para o CSS do Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    nav {
+      background-color: #ff69b4;
+    }
+
+    nav a {
+      color: white !important;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffd1e1 !important;
+    }
+
+    main {
+      flex: 1;
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #ff69b4;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    h1 {
+      margin-top: 20px;
+    }
+
+    #map {
+      width: 100%;
+      height: 500px;
+      margin-top: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand text-white" href="index.html">LGBTQIA+</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="quem_somos.html">Quem Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="onde_estamos.html">Onde Estamos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="como_ajudar.html">Como Podemos Ajudar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="duvidas.html">Dúvidas</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <main class="container">
+    <h1>Onde Estamos</h1>
+    <p>
+      Veja no mapa abaixo as localizações das casas de apoio à comunidade LGBTQIA+ disponíveis em sua região. Clique nos marcadores para mais informações.
+    </p>
+    <div id="map"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Comunidade LGBTQIA+ | Todos os direitos reservados</p>
+  </footer>
+
+  <!-- Script do Google Maps -->
+  <script>
+    function initMap() {
+      // Coordenadas para o mapa central (substitua pelas coordenadas da sua região)
+      const centro = { lat: -2.5323, lng: -44.3008 }; // São Luís, Maranhão
+
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 12,
+        center: centro,
+      });
+
+      const locais = [
+        { lat: -2.5283, lng: -44.3028, title: "Casa de Apoio A" },
+        { lat: -2.5328, lng: -44.2950, title: "Casa de Apoio B" },
+        { lat: -2.5405, lng: -44.3100, title: "Casa de Apoio C" },
+      ];
+
+      locais.forEach((local) => {
+        new google.maps.Marker({
+          position: { lat: local.lat, lng: local.lng },
+          map: map,
+          title: local.title,
+        });
+      });
+    }
+  </script>
+
+  <!-- Carregar a API do Google Maps -->
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+  </script>
+</body>
+</html>
