@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
       })
     })
   
-    // Smooth scroll to FAQ items when clicking on links
+
     document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
       anchor.addEventListener("click", function (e) {
         e.preventDefault()
@@ -16,8 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         })
       })
     })
-  
-    // Add a back-to-top button
+ 
     const backToTopButton = document.createElement("button")
     backToTopButton.innerHTML = "↑"
     backToTopButton.className = "back-to-top"
