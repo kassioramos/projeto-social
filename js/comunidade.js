@@ -55,6 +55,6 @@ document.addEventListener("DOMContentLoaded", () => {
     "Bem-vindos à nossa comunidade!",
     "Este é um espaço seguro para compartilharmos experiências e nos apoiarmos mutuamente.",
   )
-  addNewPost("Dica de leitura", "Alguém tem recomendações de livros LGBTQIA+ para compartilhar?")
+  addNewPost("Dica de leitura", "Alguém tem recomendações de livros  para compartilhar?")
 })
 
