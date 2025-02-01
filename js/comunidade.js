@@ -3,28 +3,20 @@ const posts = []
 function createPostElement(post) {
   const postDate = new Date(post.date).toLocaleString()
   return `
-    <div class="card mb-3">
-      <div class="card-body">
-        <h5 class="card-title">${escapeHTML(post.title)}</h5>
-        <p class="card-text">${escapeHTML(post.content)}</p>
-        <p class="card-text"><small class="text-muted">Publicado em ${postDate}</small></p>
-      </div>
-    </div>
-  `
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">${escapeHTML(post.title)}</h5>
+                <p class="card-text">${escapeHTML(post.content)}</p>
+                <p class="card-text"><small class="text-muted">Publicado em ${postDate}</small></p>
+            </div>
+        </div>
+    `
 }
 
 function escapeHTML(str) {
-  return str.replace(
-    /[&<>'"]/g,
-    (tag) =>
-      ({
-        "&": "&amp;",
-        "<": "&lt;",
-        ">": "&gt;",
-        "'": "&#39;",
-        '"': "&quot;",
-      })[tag] || tag,
-  )
+  const div = document.createElement("div")
+  div.textContent = str
+  return div.innerHTML
 }
 
 function renderPosts() {
@@ -58,11 +50,11 @@ document.addEventListener("DOMContentLoaded", () => {
     })
   }
 
-  // Adicionar alguns posts de exemplo
+
   addNewPost(
     "Bem-vindos à nossa comunidade!",
     "Este é um espaço seguro para compartilharmos experiências e nos apoiarmos mutuamente.",
   )
-  addNewPost("Dica de leitura", "Alguém tem recomendações de livros para compartilhar?")
+  addNewPost("Dica de leitura", "Alguém tem recomendações de livros LGBTQIA+ para compartilhar?")
 })
 

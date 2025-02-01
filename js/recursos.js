@@ -45,18 +45,18 @@ const recursosEInstituicoes = [
 
 function createCard(item) {
   return `
-    <div class="col-md-6 col-lg-4 mb-4">
-      <div class="card h-100">
-        <div class="card-body">
-          <h3 class="card-title">${item.nome}</h3>
-          <p class="card-text">${item.descricao}</p>
-          <a href="${item.link}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-            ${item.tipo === "instituicao" ? "Visitar Site" : "Acessar Recurso"}
-          </a>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">${item.nome}</h3>
+                    <p class="card-text">${item.descricao}</p>
+                    <a href="${item.link}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        ${item.tipo === "instituicao" ? "Visitar Site" : "Acessar Recurso"}
+                    </a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  `
+    `
 }
 
 document.addEventListener("DOMContentLoaded", () => {

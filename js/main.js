@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Back to top button
+
   const backToTopButton = document.getElementById("back-to-top")
   if (backToTopButton) {
     window.addEventListener("scroll", () => {
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })
   }
 
-  // Smooth scrolling for anchor links
+  
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
       e.preventDefault()
@@ -25,5 +25,16 @@ document.addEventListener("DOMContentLoaded", () => {
       })
     })
   })
+
+ 
+  const contactForm = document.getElementById("contact-form")
+  if (contactForm) {
+    contactForm.addEventListener("submit", function (e) {
+      e.preventDefault()
+    
+      alert("Obrigado por entrar em contato! Responderemos em breve.")
+      this.reset()
+    })
+  }
 })
 
