@@ -28,7 +28,15 @@ A falta de acesso fácil a informações sobre direitos e recursos afeta o públ
 - Impacto negativo na saúde mental
 
 O "Lumo" visa abordar esses problemas fornecendo uma fonte confiável e acessível de informações, potencialmente melhorando a qualidade de vida e o empoderamento da comunidade LGBTQIA+ no Brasil.
+Instruções para o Desenvolvimento da Solução
 
+Com base no tema proposto, cada time deverá desenvolver uma solução inovadora e funcional. Lumo segue a ODS 16 – Paz, Justiça e Instituições Eficazes: Promover sociedades pacíficas e inclusivas e de acordo com o desafio proposto pela RECODE. O número do squad é 50.
+
+Liderança do SQUAD 50
+
+Líder: Victor Pereira
+
+Vice-líder: Rafael Victor
 ## Páginas
 
 1. **Início (index.html)**: Página principal com visão geral do site
