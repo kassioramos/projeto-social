@@ -1,6 +1,6 @@
 # Lumo
 
-## Sobre o Projeto
+## Sobre o Projeto - SQUAD 50
 
 Lumo é um site educativo dedicado a fornecer informações precisas e atualizadas sobre direitos, recursos e instituições de apoio para a comunidade LGBTQIA+ no Brasil. Nosso objetivo é empoderar através do conhecimento, promovendo igualdade, respeito e inclusão.
 
