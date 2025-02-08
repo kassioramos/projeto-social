@@ -50,6 +50,80 @@ O "Lumo" visa abordar esses problemas fornecendo uma fonte confiável e acessív
 
 Observação: Esta é uma conta de demonstração e não deve ser usada em um ambiente de produção.
 
+## Distribuição das Atividades
+
+Para a primeira entrega do projeto, as atividades foram distribuídas entre os integrantes do squad da seguinte forma:
+
+1. **Victor Pereira**: Desenvolvimento
+   - Responsável pela implementação do front-end e back-end do site
+   - Criação e manutenção das páginas HTML, CSS e JavaScript
+   - Integração de funcionalidades interativas
+
+2. **Rafael Victor**: Banco de Dados e Modelagem
+   - Projeto e implementação da estrutura do banco de dados
+   - Modelagem de dados para armazenamento eficiente de informações
+   - Desenvolvimento de queries e otimização de performance
+
+3. **Antonio Cassio**: Suporte e Pesquisa
+   - Pesquisa e coleta de informações relevantes sobre direitos LGBTQIA+
+   - Suporte aos outros membros da equipe em suas respectivas áreas
+   - Garantia da precisão e atualidade das informações apresentadas no site
+
+4. **Kenny Wilker**: Apresentação
+   - Preparação e realização da apresentação do projeto
+   - Criação de materiais visuais para a apresentação
+   - Comunicação clara dos objetivos, desafios e soluções do projeto
+
+Esta distribuição de atividades visa maximizar as habilidades individuais de cada membro do squad, garantindo uma entrega eficiente e de alta qualidade.
+
+## Cronograma de Atividades
+
+Para a primeira entrega do projeto Lumo, estabelecemos o seguinte cronograma:
+
+1. Semana 1-2: Planejamento e Pesquisa
+   - Definição do escopo do projeto
+   - Pesquisa sobre direitos LGBTQIA+ e fontes de informação
+   - Criação do design inicial e wireframes
+
+2. Semana 3-4: Desenvolvimento Inicial
+   - Configuração do ambiente de desenvolvimento
+   - Criação da estrutura básica do HTML e CSS
+   - Início do desenvolvimento das páginas principais
+
+3. Semana 5-6: Desenvolvimento Avançado
+   - Implementação de funcionalidades interativas com JavaScript
+   - Desenvolvimento do sistema de login
+   - Criação do banco de dados e modelagem inicial
+
+4. Semana 7-8: Refinamento e Testes
+   - Aprimoramento do design e responsividade
+   - Testes de usabilidade e correção de bugs
+   - Otimização de performance
+
+5. Semana 9: Preparação para Entrega
+   - Revisão final do conteúdo e funcionalidades
+   - Preparação da apresentação
+   - Documentação do projeto
+
+## Gerenciamento do Projeto
+
+Para o gerenciamento do projeto Lumo, adotamos uma abordagem ágil e flexível, focada na comunicação constante e na adaptação rápida às mudanças. Embora não tenhamos utilizado uma ferramenta específica de modelo Scrum, implementamos práticas inspiradas em metodologias ágeis:
+
+1. **Reuniões Diárias**: Realizamos daily standups através do Microsoft Teams, onde cada membro da equipe compartilhava:
+   - O que foi feito no dia anterior
+   - O que será feito hoje
+   - Quaisquer obstáculos enfrentados
+
+2. **Quadro Virtual**: Utilizamos um quadro compartilhado no Microsoft Teams para visualizar o progresso das tarefas, divididas em "A fazer", "Em andamento" e "Concluído".
+
+3. **Comunicação Contínua**: Mantivemos um canal de comunicação aberto no Teams para discussões rápidas, compartilhamento de ideias e resolução de problemas em tempo real.
+
+4. **Revisões Semanais**: Realizamos reuniões semanais para revisar o progresso, ajustar prioridades e planejar a próxima semana.
+
+5. **Documentação Colaborativa**: Utilizamos documentos compartilhados no Microsoft 365 para manter todos os membros da equipe atualizados sobre decisões, pesquisas e progresso do projeto.
+
+Esta abordagem nos permitiu manter a flexibilidade necessária para um projeto acadêmico, ao mesmo tempo em que garantimos uma comunicação eficiente e um progresso constante. A ausência de uma ferramenta formal de Scrum foi compensada pelo compromisso da equipe com a comunicação frequente e a colaboração próxima, permitindo-nos adaptar rapidamente às necessidades do projeto e dos membros da equipe.
+
 ## Fontes de Informação
 
 As informações apresentadas no Lumo foram obtidas das seguintes fontes oficiais e organizações respeitadas:
@@ -86,3 +160,4 @@ As informações apresentadas no Lumo foram obtidas das seguintes fontes oficiai
 
 Estas fontes foram escolhidas por sua credibilidade, abrangência e compromisso com a promoção dos direitos LGBTQIA+. As informações foram cuidadosamente selecionadas e verificadas para garantir a precisão e relevância do conteúdo apresentado no Lumo.
 
+Estamos comprometidos em continuar melhorando e expandindo o Lumo para melhor servir a comunidade LGBTQIA+ no Brasil.
