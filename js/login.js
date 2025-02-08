@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem("userLoggedIn", "true")
         localStorage.setItem("userName", adminUser.name)
         alert("Login bem-sucedido!")
-        window.location.href = "index.html"
+        window.location.href = "../index.html"
       } else {
         alert("Email ou senha incorretos.")
       }
