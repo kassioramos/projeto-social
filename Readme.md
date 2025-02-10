@@ -114,4 +114,8 @@ As informações do site são baseadas em fontes confiáveis, incluindo:
 - Ordem dos Advogados do Brasil (OAB)
 - ONU, entre outros.
 
-O Lumo continua em expansão !
+## Pitch do Projeto
+Confira o pitch do projeto Lumo no seguinte link: [Pitch do Projeto Lumo](https://www.youtube.com/live/p5RxvxCjCuI?si=_j6OXRmXKyQ3wAA_)
+
+O Lumo continua em expansão!
+
